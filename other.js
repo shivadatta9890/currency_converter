@@ -61,9 +61,8 @@ exchangeIcon.addEventListener("click",(e)=>{
     fromList.value = toList.value; // which becomes INR here
     toList.value = tempValue; // which becomes USD here
     getExchangeRate();
-    updateFlag(e.target);
+    // updateFlag(e.target);
 });
-updateFlag();
+// updateFlag();
 // insertAdjacentHTML
-// https://v6.exchangerate-api.com/v6/7a2ffef96fb171981bc27644/latest/${fromCurrency.value}
 getExchangeRate();
